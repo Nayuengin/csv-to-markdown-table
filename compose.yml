@@ -1,0 +1,6 @@
+services:
+    csv_to_markdown_table:
+        build: .
+        volumes:
+            - ./csv:/app/csv
+            - ./output:/app/output
